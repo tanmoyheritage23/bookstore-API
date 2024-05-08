@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 require("dotenv").config();
-const port = process.env.PORT;
+const port = process.env.PORT || 5000;
 const mongoose = require("./config/mongoose");
 const passport = require("passport");
 const passportJWT = require("./config/passport-jwt-authentication");
