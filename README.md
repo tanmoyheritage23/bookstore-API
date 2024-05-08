@@ -25,6 +25,6 @@ Clone the repository
      ADMIN_ID = <anything>
 - Start the server using npm start
   
- ## Deployement
-
+ ## Deployment
+ https://bookstore-api-lrop.onrender.com/
   
